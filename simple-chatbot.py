@@ -7,6 +7,5 @@ name = input("What is your name? ")
 print(f"Hello {name}")
 
 age = int(input("What year were you born? "))
-age = 2050 - age
 
-print (f"Here is a fun fact for you {name}. In 2050 you will be {age} years old!")
+print (f"Here is a fun fact for you {name}. In 2050 you will be {2050 - age} years old!")

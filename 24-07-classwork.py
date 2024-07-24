@@ -18,6 +18,10 @@
 # # print(type(age))
 # print(age)
 
-a = 5 + 5
-print ("a is")
+#The Answer is 42!!
+
+the_answer = 42
+your_answer = int(input("Your number: "))
+# print (type(your_answer))
+print(the_answer != your_answer)
 
