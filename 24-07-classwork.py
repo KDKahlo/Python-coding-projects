@@ -26,5 +26,21 @@
 # print(the_answer != your_answer)
 
 #Booleans using any function
-collections = [True, False, False]
-print(any(collections))
+# collections = [True, False, False]
+# #will check if any from the collection are the same.
+# print(any(collections))
+
+# print (all(collections))
+
+# age = int(input("Your Age: "))
+# print(age >= 18)
+# #For 42, True
+# #For -5, False
+# #For "Hallo World!", Traceback "invalid literal for int() with base 10."
+
+# result = True and not False or False 
+# print (result)
+
+number = 5
+while number < 10:
+    print(f"f")
