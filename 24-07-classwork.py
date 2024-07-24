@@ -20,8 +20,11 @@
 
 #The Answer is 42!!
 
-the_answer = 42
-your_answer = int(input("Your number: "))
-# print (type(your_answer))
-print(the_answer != your_answer)
+# the_answer = 42
+# your_answer = int(input("Your number: "))
+# # print (type(your_answer))
+# print(the_answer != your_answer)
 
+#Booleans using any function
+collections = [True, False, False]
+print(any(collections))
