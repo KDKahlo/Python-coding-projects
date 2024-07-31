@@ -85,14 +85,31 @@
     
     
 #Letter Filter
-inputString = input("Enter a Text: ")
-output=""
-for character in inputString:
-   if(character in ['a','e','i','o','u'] or character in ['A','E','I','O','U'] ):
-      continue
-   else:
-      output += character
-print(output)
+# inputString = input("Enter a Text: ")
+# output=""
+# for character in inputString:
+#    if(character in ['a','e','i','o','u'] or character in ['A','E','I','O','U'] ):
+#       continue
+#    else:
+#       output += character
+# print(output)
+
+# new_list = [1, 4.2, 3, "Hello"]
+# print(new_list)
+# new_list[3] = [2, 3]
+
+# print(new_list)
+# print(new_list[3][0])
+
+# my_tuple = (1,3,5)
+# print(my_tuple, type(my_tuple))
+
+#Exercise 024
+grades = [3, 1, 2, 4, 2, 3, 3, 5]
+print(sum(grades)/len(grades))
+
+
+
   
             
             
