@@ -76,13 +76,24 @@
         
 #Login 1 Exercise 21.1
 
-user = input("please enter user name: ")
-password = input("please enter your password: ")
-if user == "admin" and  password == "1234":
-         print("True")        
-else:
-    print("False")
+# user = input("please enter user name: ")
+# password = input("please enter your password: ")
+# if user == "admin" and  password == "1234":
+#          print("True")        
+# else:
+#     print("False")
     
+    
+#Letter Filter
+inputString = input("Enter a Text: ")
+output=""
+for character in inputString:
+   if(character in ['a','e','i','o','u'] or character in ['A','E','I','O','U'] ):
+      continue
+   else:
+      output += character
+print(output)
+  
             
             
         
