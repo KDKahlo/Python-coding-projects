@@ -11,7 +11,7 @@
     
 #Exercise 15
 
-number = 5
+number = 15
 
 while number < 10:
     print(f"{number} is smaller than 10")
