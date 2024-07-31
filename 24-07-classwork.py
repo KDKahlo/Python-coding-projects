@@ -32,6 +32,7 @@
 
 # print (all(collections))
 
+#The Answer is 42!! Exercise
 # age = int(input("Your Age: "))
 # print(age >= 18)
 # #For 42, True
@@ -41,6 +42,4 @@
 # result = True and not False or False 
 # print (result)
 
-number = 5
-while number < 10:
-    print(f"f")
+
