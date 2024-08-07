@@ -104,9 +104,34 @@
 # my_tuple = (1,3,5)
 # print(my_tuple, type(my_tuple))
 
-#Exercise 024
-grades = [3, 1, 2, 4, 2, 3, 3, 5]
-print(sum(grades)/len(grades))
+
+
+#declared the number variable    
+# number = 1
+# #the while statement ask number to loop until it is great than or equal to 100
+# while number <= 100:
+# #it will print the current number of the loop
+#     print(number)
+# #after printing it will increment number by 1 and the loop will begin again
+#     number += 1
+
+# #Exercise 024
+# grades = [3, 1, 2, 4, 2, 3, 3, 5]
+# print(sum(grades)/len(grades))
+
+
+#Fibonacci
+# seq = [1, 1]
+
+# index = 2
+# while index < 12 :
+#     seq.append(seq[index-1]+seq[index-2])
+#     print(seq)
+#     index=index+1
+
+
+
+# print(sum(seq))
 
 
 
