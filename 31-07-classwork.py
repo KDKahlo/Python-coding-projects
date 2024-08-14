@@ -121,17 +121,18 @@
 
 
 #Fibonacci
-# seq = [1, 1]
 
-# index = 2
-# while index < 12 :
-#     seq.append(seq[index-1]+seq[index-2])
-#     print(seq)
-#     index=index+1
+seq = [1, 1]
+
+index = 2
+while index < 12 :
+    seq.append(seq[index-1]+seq[index-2])
+    print(seq)
+    index=index+1
 
 
 
-# print(sum(seq))
+print(sum(seq))
 
 
 
