@@ -12,7 +12,11 @@ data["people"][1]["age"] = "41"
 # print(data["people"][1])
 
 data["people"].append({"name": "Dorothy", "age": 27, "email": "doro@email.com"})
-print(data)
+print(data["people"])
+
+# file = open("test.txt", "w")
+# file.write(data["people"]["name"])
+# file.close()
 
 
 # text = "This is a string"
