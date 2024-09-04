@@ -1,9 +1,9 @@
 def count_all_stars(galaxies):
     total_stars = 0
     for stars in galaxies:
-        total_stars = stars  # fix me!
+        total_stars += stars  # fix me!
     return total_stars
-print(stars)
-
+galaxies = [1000000, 2300000, 500000]  # Example list of galaxies with star counts
+print("there are ",count_all_stars(galaxies), "stars in the galaxy")  # This should print the sum of all stars
 
 
